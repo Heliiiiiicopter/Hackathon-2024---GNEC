@@ -7,7 +7,7 @@ const Environment = () => {
     <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
     <button onClick={() => navigate("/genderequality")}>Gender Equality</button>
-    <button onClick={() => navigate("/")}>Poverty?</button>
+    <button onClick={() => navigate("/responsible")}>Responsible Consumption/Production</button>
     </div>
     </>
 }

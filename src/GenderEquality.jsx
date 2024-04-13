@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 import './App.css'
 
 function GenderEquality() {
+  const navigate = useNavigate()
   const [count, setCount] = useState(0)
 
   return (
@@ -32,6 +34,11 @@ function GenderEquality() {
       <p> Solutions: <br></br> 
       Implement laws protecting womens rights and their ability to make their own decisions regarding their lives. 
       </p>
+      <div className="navButtons">
+    <button onClick={() => navigate("/")}>Home</button>
+    <button onClick={() => navigate("/environment")}>Climate Change</button>
+    <button onClick={() => navigate("/responsible")}>Responsible Consumption/Production</button>
+    </div>
     </>
   )
 }
