@@ -1,9 +1,13 @@
 import { useState } from 'react'
 
+
+
+import { useNavigate } from 'react-router-dom'
 import './App.css'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
+  const navigate = useNavigate()
 
   return (
     <>
@@ -24,7 +28,7 @@ function App() {
     <div className="genderEquality">
         Gender Equality
       </div>
-      <div className="environment?">
+      <div className="environment?" onClick={() => {navigate('/environment')}}>
         Environment
       </div>
       <div className="poverty?">
