@@ -28,11 +28,11 @@ const App = () => {
     <div className="genderEquality" onClick={() => {navigate("/gender")}}>
         Gender Equality
       </div>
-      <div className="environment?" onClick={() => {navigate('/environment')}}>
-        Environment
+      <div className="environment" onClick={() => {navigate('/environment')}}>
+        Climate Action
       </div>
-      <div className="poverty?">
-        Poverty
+      <div className="responsible">
+        Responsible Consumption and Production
       </div>
     </div>
       
