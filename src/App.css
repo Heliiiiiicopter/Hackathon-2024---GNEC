@@ -10,10 +10,20 @@
   height: 30vh;
   text-align: center;
 }
-.genderEquality:hover {
+.goals div:hover {
   border: 1px solid green;
 }
 
 .summary {
   border: 3px solid purple;
+}
+.navButtons {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0vh;
+  right: 0vw;
+}
+.navButtons button {
+  background-color: rgb(222, 222, 222);
 }

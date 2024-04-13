@@ -25,7 +25,7 @@ const App = () => {
           </div>
 
     <div className="goals">
-    <div className="genderEquality">
+    <div className="genderEquality" onClick={() => {navigate("/gender")}}>
         Gender Equality
       </div>
       <div className="environment?" onClick={() => {navigate('/environment')}}>
