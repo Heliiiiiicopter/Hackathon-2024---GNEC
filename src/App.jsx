@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { navigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import './App.css'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
+  const navigate = useNavigate()
 
   return (
     <>
@@ -20,10 +21,10 @@ function App() {
       </table>
 
     <div className="goals">
-    <div className="genderEquality" onClick={() => {navigate()}}>
+    <div className="genderEquality">
         Gender Equality
       </div>
-      <div className="environment?">
+      <div className="environment?" onClick={() => {navigate('/environment')}}>
         Environment
       </div>
       <div className="poverty?">
