@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { navigate } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -8,6 +7,7 @@ function App() {
 
   return (
     <>
+
       <h1> United Nations Sustainable Development Goals</h1>
 
       <table> 
@@ -19,6 +19,19 @@ function App() {
         </tr>
       </table>
 
+    <div className="goals">
+    <div className="genderEquality" onClick={() => {navigate()}}>
+        Gender Equality
+      </div>
+      <div className="environment?">
+        Environment
+      </div>
+      <div className="poverty?">
+        Poverty
+      </div>
+    </div>
+      
+      
     </>
   )
 }
