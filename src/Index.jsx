@@ -10,7 +10,7 @@ const Index = () => {
             <Routes>
                 <Route path="/" element={<App/>}/>
                 <Route path="environment" element={<Environment/>}/>
-                <Route path="gender" element={<GenderEquality/>}/>
+                <Route path="genderequality" element={<GenderEquality/>}/>
             </Routes>
         </Router>
     )

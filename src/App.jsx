@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
 
-      <h1> United Nations Sustainable Development Goals</h1>
+      <h1><center> United Nations Sustainable Development Goals</center></h1>
 
       <div className="summary">
             The goal of the United Nations Sustainable Development Goals or UN SDGs is to reduce the disparities between countries around the world.
@@ -25,7 +25,7 @@ const App = () => {
           </div>
 
     <div className="goals">
-    <div className="genderEquality" onClick={() => {navigate("/gender")}}>
+    <div className="genderEquality" onClick={() => {navigate("/genderequality")}}>
         Gender Equality
       </div>
       <div className="environment" onClick={() => {navigate('/environment')}}>

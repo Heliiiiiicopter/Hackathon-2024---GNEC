@@ -58,16 +58,16 @@
 }
 
 h1 {
-  padding-left: 2%;
+  padding-left: 3%;
 }
 
 h3 {
   font-size: 26px;
-  padding-left: 2%;
+  padding-left: 3%;
 }
 
 h4 {
-  padding-left: 2%;
+  padding-left: 3%;
   padding-right: 4%;
 }
 pre {
@@ -75,13 +75,18 @@ pre {
   padding-left: 1.5%;
 }
 
-p1 {
-  padding-left: 2%;
+.p1 p {
+  padding-left: 3%;
   font-size: 20px;
 }
 
 p {
   font-size: 16px;
-  padding-left: 2%;
+  padding-left: 3%;
   padding-right: 4%
+}
+
+.summary {
+  padding-left: 3%;
+  padding-right: 4%;
 }
