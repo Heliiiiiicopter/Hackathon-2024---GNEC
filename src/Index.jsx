@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import App from './App.jsx'
 import Environment from './Environment'
 import GenderEquality from './GenderEquality'
+import Responsible from './Responsible'
 
 const Index = () => {
     return (
@@ -10,7 +11,8 @@ const Index = () => {
             <Routes>
                 <Route path="/" element={<App/>}/>
                 <Route path="environment" element={<Environment/>}/>
-                <Route path="gender" element={<GenderEquality/>}/>
+                <Route path="genderequality" element={<GenderEquality/>}/>
+                <Route path="responsible" element={<Responsible/>}/>
             </Routes>
         </Router>
     )
