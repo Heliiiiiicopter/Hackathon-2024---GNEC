@@ -19,9 +19,9 @@ function GenderEquality() {
         The UN has 9 targets for gender equality, and so far, none of them have been met. 
       </h4>
       
-      <h3> Target 5.1 </h3>
-      <pre> End all form of discrimination against all women and girls everywhere</pre>
-      <p1> If laws are there to promote and maintain equality and discrimination in the country</p1>
+      <h3> Target 1 </h3>
+      <pre> End all forms of discrimination against all women and girls everywhere</pre>
+      <p className="p1"> Laws are in place to promote and maintain equality and discrimination in the country</p>
       <p> Many countries lack laws and balances to ensure women an equal opportunity and quality of life. 
         According to the UN SDGs website, out of 119 countries, 55% didn't have laws to ban discrimination of women
         in 2022. Most countries do not have quotas for women in parliament. 60% didn't have laws defining rape based on consent. 
@@ -31,9 +31,28 @@ function GenderEquality() {
         parental permission. 
       </p>
 
-      <p> Solutions: <br></br> 
+      <p> Solutions: <br></br>
       Implement laws protecting womens rights and their ability to make their own decisions regarding their lives. 
-      Many countries have laws regarding domestic abuse, rape, wage gaps, and discrmination.</p>
+      Many countries have laws regarding domestic abuse, rape, wage gaps, and discrmination. 
+      <br></br>
+      <br></br>
+      Domestic Abuse: In recent years, many countires have implemented laws regarding domestic violence. 
+      Some countries implemented laws in defining Domestic Violence, or adding a mimimum sentances for those
+      who commit domestic violence.
+      <br></br> 
+      <br></br>
+      Rape and Harrassment: Implementing laws that define rape as a sexual act without consent of the other party. Including laws 
+      that protect the victims from harrassment or harm after the fact, and the removal of marry your rapist laws 
+      or customs. Laws that protect from workplace harrassment and retaliation would further the equality of women.
+      <br></br>
+      <br></br>
+      Wage Gaps: No country so far has acheived full wage equality. But many have reduced 80% of their gaps
+      Iceland is at the top, having closed 91% of their gap. The following countries, Norway, Finland, 
+      New Zealand, Sweden, Germany, Nicaragua, Namibia, and Lithuania are in the runner ups. 
+      <br></br>
+      <br></br>
+      Discrimination: Laws that define discrimination as "the unjust or prejudicial treatment of different categories of 
+      people, especially on the grounds of ethnicity, age, sex, or disability"(Oxford Dictionary).</p>
       
       <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
@@ -45,4 +64,3 @@ function GenderEquality() {
 }
 
 export default GenderEquality
-
