@@ -31,7 +31,7 @@ function GenderEquality() {
         parental permission. 
       </p>
 
-      <p> Solutions: <br></br>
+      <p> Solutions: <br></br><br></br>
       Implement laws protecting womens rights and their ability to make their own decisions regarding their lives. 
       Many countries have laws regarding domestic abuse, rape, wage gaps, and discrmination. 
       <br></br>
