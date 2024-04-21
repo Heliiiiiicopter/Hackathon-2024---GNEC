@@ -30,11 +30,27 @@ const Environment = () => {
 
     <h3>Target 2</h3>    
     <pre>Adopt measures to prevent or slow climate change </pre>
-    <p className="p1"></p>
+    <p className="p1">Climate Change is the change in global temperature and weather patterns. The worlds temperature has risen over the 
+    past few years. In part of Green House gass emissions, which is the emissions of gases like carbon dioxide and methane. These gases
+    mix into the atmosphere and create a green house effect. Trapping heat from the sun on Earth. This streamlines the melting of iceburgs,
+    which can flood the shores of coastal and island nations. </p>
+
+    <p>Solutions<br></br><br></br>
+    Convert electricity production methods from non-renewable methods like fossil fuels to renewable methods. There are many renewable energy 
+    methods, including nuclear, wind and hydroelectric. Nuclear is very expensive to build and maintain, and can cause catastrophes like 
+    Chernobyl. Wind energy is more affordable, but is expensive to set up. Hydroelectric is the best option.
+    </p>
+
+    <h3>Target 3</h3>
+    <pre>Improve awareness of how to deal with natural disasters and how to prepare for them</pre>
+    <p className="p1"> When faced with natural disasters many people are unprepared or unaware. 3000 people During the 1906 San Francisco
+     Earthquake, many due to lack of knowledge on how to adequately protect oneself </p>
+
+
     <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
     <button onClick={() => navigate("/genderequality")}>Gender Equality</button>
-    <button onClick={() => navigate("/responsible")}>Responsible Consumption/Production</button>
+    <button onClick={() => navigate("/energy")}>Affordable and Clean Energy</button>
     </div>
     </>
 }

@@ -5,11 +5,24 @@
   padding: 5vw;
 }
 @media (prefers-color-scheme: dark){
-.goals div {
-  background-color: blue;
-  width: 30%;
-  height: 30vh;
-  text-align: center;
+  .goals div {
+    width: 30%;
+    height: 30vh;
+    text-align: center;
+
+  }
+  .genderEquality {
+    background-color: rgb(46, 4, 80)
+  }
+
+  .environment {
+    background-color: rgb(2, 75, 38)
+  }
+
+  .energy {
+    background-color: rgb(94, 0, 0)
+  }
+
 }
 .goals div:hover {
   border: 1px solid green;
@@ -18,7 +31,7 @@
 .summary {
   border: 3px solid purple;
 }
-}
+
 @media (prefers-color-scheme: light) {
   .goals div {
     width: 30%;
@@ -38,7 +51,7 @@
   .environment {
     background-color: rgb(16, 162, 16);
   }
-  .responsible {
+  .energy {
     background-color: rgb(217, 154, 27);
   }
   
@@ -54,7 +67,7 @@
   right: 0vw;
 }
 .navButtons button {
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(202, 198, 198);
 }
 
 h1 {

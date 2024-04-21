@@ -56,8 +56,8 @@ function GenderEquality() {
       
       <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
-    <button onClick={() => navigate("/environment")}>Climate Change</button>
-    <button onClick={() => navigate("/responsible")}>Responsible Consumption/Production</button>
+    <button onClick={() => navigate("/environment")}>Climate Action</button>
+    <button onClick={() => navigate("/energy")}>Affordable and Clean Energy</button>
     </div>
     </>
   )

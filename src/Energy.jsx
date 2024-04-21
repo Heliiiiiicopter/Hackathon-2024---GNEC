@@ -1,5 +1,5 @@
 import {useNavigate} from 'react-router-dom'
-const Consumption = () => {
+const Energy = () => {
     const navigate = useNavigate()
     return <>
     
@@ -8,10 +8,10 @@ const Consumption = () => {
     <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
     <button onClick={() => navigate("/genderequality")}>Gender Equality</button>
-    <button onClick={() => navigate("/environment")}>Climate Change</button>
+    <button onClick={() => navigate("/environment")}>Climate Action</button>
 
     </div>
     </>
 }
 
-export default Consumption
+export default Energy

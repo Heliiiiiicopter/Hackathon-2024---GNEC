@@ -31,8 +31,8 @@ const App = () => {
       <div className="environment" onClick={() => {navigate('/environment')}}>
         Climate Action
       </div>
-      <div className="responsible">
-        Responsible Consumption and Production
+      <div className="energy" onClick={() => {navigate('/energy')}}> 
+        Affordable and Clean Energy
       </div>
     </div>
       
