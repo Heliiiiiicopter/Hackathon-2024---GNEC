@@ -3,7 +3,7 @@ const Consumption = () => {
     const navigate = useNavigate()
     return <>
     
-    <h1><center> Goal 13: Climate Action </center></h1>
+    <h1><center> Goal 7: Affordable and Clean Energy </center></h1>
     <h4></h4>
     <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
