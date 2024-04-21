@@ -44,7 +44,8 @@ const Environment = () => {
     <h3>Target 3</h3>
     <pre>Improve awareness of how to deal with natural disasters and how to prepare for them</pre>
     <p className="p1"> When faced with natural disasters many people are unprepared or unaware. 3000 people During the 1906 San Francisco
-     Earthquake, many due to lack of knowledge on how to adequately protect oneself </p>
+     Earthquake, many due to lack of knowledge on how to adequately protect oneself. Knowledge on how to properly protect a persons body during
+     and earthquake </p>
 
 
     <div className="navButtons">
