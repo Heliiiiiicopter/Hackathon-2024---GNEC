@@ -21,8 +21,8 @@ function GenderEquality() {
       
       <h3> Target 1 </h3>
       <pre> End all forms of discrimination against all women and girls everywhere</pre>
-      <p className="p1"> Laws are in place to promote and maintain equality and discrimination in the country</p>
-      <p> Many countries lack laws and balances to ensure women an equal opportunity and quality of life. 
+      <p className="p1"> Laws are in place to promote and maintain equality and discrimination in the country 
+      Many countries lack laws and balances to ensure women an equal opportunity and quality of life. 
         According to the UN SDGs website, out of 119 countries, 55% didn't have laws to ban discrimination of women
         in 2022. Most countries do not have quotas for women in parliament. 60% didn't have laws defining rape based on consent. 
         45% didnt have laws outlining wage gaps between men and women. Almost 25% didnt have laws protecting women in marriage
@@ -55,10 +55,35 @@ function GenderEquality() {
       people, especially on the grounds of ethnicity, age, sex, or disability"(Oxford Dictionary).</p>
       
 
-      <h3>Target 2</h3>
-      <pre>Abolish violence and crime against women, including trafficking and child marriage</pre>
-      <p className="p1"> Around 20 million people, mostly girls, are trafficked all around the world. 
+      <h3>Target 3 </h3>
+      <pre>Eliminate harmful traditions against women and child marriage</pre>
+      <p className="p1"> 
+      Many girls are sold into marriage at a young age, sometimes 15 or lower. These girls face physical, psychological
+      and sexual abuse at the hands of their husbands or partner. They have no way of escaping the marriage, or seeking 
+      legal help. Sub-Saharan Africa has the highest level of child marriage, at around 40% of girls being married before
+      the age of 18(UNICEF).
       </p>
+
+      <p>Solutions:
+        <br></br><br></br>
+        Illegalize marriage of minors, even with parental permission. Increase laws protecting women in marriage from 
+        domestic abuse. Enact measures to help women in unsafe situations. Globally, child marriage has decreased by 21%
+        since 2016(United Nations). Enacting laws like these would lower child marriage even further. So far, many countires
+        are lacking in laws to protect against child marriage, including the United States. 3 
+      </p>
+
+      <h3>Target 6</h3>
+      <pre>Ensure access to reproductive health and rights</pre>
+      <div className="p1">Many countries around the world lack rights for women to make their own decisions regarding their 
+      reproductive systems. Africa and the Middle East have the least reproductive rights, with women unable to make their
+      own decisions regarding their body. Rights like abortion, and birth control, are crucial for the health and equality 
+      of women. </div>
+      <p>Solutions:<br></br><br></br>
+      Enact laws giving women freedom to their own bodies and systems. Laws to discourage control of reproductive healths 
+      by a womens husbands. So far, many countries have enacted much of the laws needed to give women full control over their
+      reproductive rights. In 2022, all United Nations countries have around 75% of all laws needed to give women full 
+      reproductive rights(United Nations).
+            </p>
       <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
     <button onClick={() => navigate("/environment")}>Climate Action</button>

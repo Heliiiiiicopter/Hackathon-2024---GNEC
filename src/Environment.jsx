@@ -39,7 +39,7 @@ const Environment = () => {
     mix into the atmosphere and create a green house effect. Trapping heat from the sun on Earth. This streamlines the melting of iceburgs,
     which can flood the shores of coastal and island nations. </p>
 
-    <p>Solutions<br></br><br></br>
+    <p>Solutions:<br></br><br></br>
     Convert electricity production methods from non-renewable methods like fossil fuels to renewable methods. There are many renewable energy 
     methods, including nuclear, wind and hydroelectric. Nuclear is very expensive to build and maintain, and can cause catastrophes like 
     Chernobyl. Wind energy is more affordable, but is expensive to set up. Hydroelectric is the best option.
@@ -51,7 +51,7 @@ const Environment = () => {
      Earthquake, many due to lack of knowledge on how to adequately protect oneself. Knowledge on how to properly protect a persons body during
      and earthquake or how to evacuate during a fire. </p>
 
-    <p>Solutions<br></br><br></br>
+    <p>Solutions:<br></br><br></br>
         Implement information on how to protect oneself during natural disasters and how to see the warning signs. Earthquake and fire drills
         in schools would teach kids on how to protect themselves. While these drills are very common in sone countries, like the United States,
         they're not as commonplace in other countries. Adding these teachings would reduce deaths by natural disasters.
