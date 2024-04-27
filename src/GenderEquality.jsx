@@ -54,6 +54,11 @@ function GenderEquality() {
       Discrimination: Laws that define discrimination as "the unjust or prejudicial treatment of different categories of 
       people, especially on the grounds of ethnicity, age, sex, or disability"(Oxford Dictionary).</p>
       
+
+      <h3>Target 2</h3>
+      <pre>Abolish violence and crime against women, including trafficking and child marriage</pre>
+      <p className="p1"> Around 20 million people, mostly girls, are trafficked all around the world. 
+      </p>
       <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
     <button onClick={() => navigate("/environment")}>Climate Action</button>
