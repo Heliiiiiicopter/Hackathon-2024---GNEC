@@ -4,6 +4,9 @@ const Environment = () => {
     return <>
     
     <h1><center> Goal 13: Climate Action </center></h1>
+
+3
+    
     <h4>The Earths atmosphere and surface has slowly been deteriorating due to the actions of humans. Greenhouse gases,
         like methane or carbon dioxide have torn holes in the ozone layer, and have contributed to overall air pollution. 
         Causing increased health issues around the world. It also causes the climate of the Earth to fluctuate. Which can 
@@ -12,7 +15,8 @@ const Environment = () => {
         countries have been unable to do so. 
     </h4>
 
-    <h3> Target 1</h3>
+   <h3>Target 1</h3>
+
     <pre>Have the ability to adequately adapt to climate hazards and natural disasters</pre>
     <p className="p1"> Natural Disasters happen in every country on Earth. Whether it be the East Coast of the US with hurricanes,
      or Earthquakes in China. Many countries are unable to adequately come back from natural disasters. The Indian Ocean Tsunami hit
@@ -35,7 +39,7 @@ const Environment = () => {
     mix into the atmosphere and create a green house effect. Trapping heat from the sun on Earth. This streamlines the melting of iceburgs,
     which can flood the shores of coastal and island nations. </p>
 
-    <p>Solutions<br></br><br></br>
+    <p>Solutions:<br></br><br></br>
     Convert electricity production methods from non-renewable methods like fossil fuels to renewable methods. There are many renewable energy 
     methods, including nuclear, wind and hydroelectric. Nuclear is very expensive to build and maintain, and can cause catastrophes like 
     Chernobyl. Wind energy is more affordable, but is expensive to set up. Hydroelectric is the best option.
@@ -45,8 +49,13 @@ const Environment = () => {
     <pre>Improve awareness of how to deal with natural disasters and how to prepare for them</pre>
     <p className="p1"> When faced with natural disasters many people are unprepared or unaware. 3000 people During the 1906 San Francisco
      Earthquake, many due to lack of knowledge on how to adequately protect oneself. Knowledge on how to properly protect a persons body during
-     and earthquake </p>
+     and earthquake or how to evacuate during a fire. </p>
 
+    <p>Solutions:<br></br><br></br>
+        Implement information on how to protect oneself during natural disasters and how to see the warning signs. Earthquake and fire drills
+        in schools would teach kids on how to protect themselves. While these drills are very common in sone countries, like the United States,
+        they're not as commonplace in other countries. Adding these teachings would reduce deaths by natural disasters.
+    </p>
 
     <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
