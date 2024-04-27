@@ -20,6 +20,39 @@ const Energy = () => {
     needed in developing countries, especially in sub-Saharan Africa, as in 7 of the 20 countries with the largest clean fuel deficits, fewer than 
     10% of the population had access to clean fuels and technologies.
     </p>
+    <h3> Target 2</h3>
+    <pre>Substantially increase the share of renewable energy in the global energy mix</pre>
+    <p className="p1">
+    Increasing the usage of renewable energy globally would have both long and short term benefits, including environmental improvement, 
+    energy security, and public health benefits. By reducing the usage of fossil fuels by moving to renewable sources of energy, 
+    the greenhouse gas emissions brought by energy consumption can be drastically decreased, reducing pollution and mitigating climate change, 
+    which would then decrease the prevelance of pollution-based repiratory diseases.
+    Renewable energy can also work to reduce nations' dependence on imported fuels, which would provide higher energy security for 
+    all citizens. 
+    </p>
+    <p>Solutions: <br></br><br></br>
+    Governmental policies to incentivize renewable energy usage and increased awareness and education about renewable energy would 
+    both bring high usage of renewable energy in all nations. Governmental policies may include tax incentives to encourage investment in 
+    renewable energy projects or setting mandates and targets for renewable energy development. One example of government tax 
+    incentives for renewable energy is the United States' federal solar tax credit, which provides homeowners 30% of the 
+    cost of solar system installation, should they choose to have said installations for renewable energy. 
+    </p>
+    <h3> Target 3</h3>
+    <pre>Double the global rate of improvement in energy efficiency by 2030</pre>
+    <p className="p1">
+        Energy efficiency is the usage of less energy to achieve the same level of service/output. Improved energy efficiency 
+        is, according to the United Nations, one of the most cost-effective methods for countries to reduce greenhouse gas emissions.
+    </p>
+    <p>Solutions: <br></br><br></br>
+    Optimizing industrial processes and utilizing energy-efficient lighting will lead to widespread improvements in energy efficiency. 
+    Having Energy Management Systems (EMS) within industries which monitor, analyze, and control energy and identify opporunities for 
+    improvement are one way of optimizing industrial processes for energy efficiency. Another example of industrial improvements is 
+    upgrading industrial equipment to more energy-efficient models; for example, changing out old motors and boilers for newer, 
+    higher-efficiency models. Using energy-efficient lighting by replacing traditional incandescent bulbs with energy-efficient lighting 
+    like LED lights, as well as having lighting controls with motion sensors to optimize lighting usage can decrease the amount of energy 
+    needed for lighting, and the amount of lighting used for each location.
+    </p>
+
     <div className="navButtons">
     <button onClick={() => navigate("/")}>Home</button>
     <button onClick={() => navigate("/genderequality")}>Gender Equality</button>
