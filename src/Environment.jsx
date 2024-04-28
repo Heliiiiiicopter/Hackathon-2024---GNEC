@@ -1,11 +1,12 @@
 import {useNavigate} from 'react-router-dom'
+
 const Environment = () => {
     const navigate = useNavigate()
     return <>
     
     <h1><center> Goal 13: Climate Action </center></h1>
 
-3
+
     
     <h4>The Earths atmosphere and surface has slowly been deteriorating due to the actions of humans. Greenhouse gases,
         like methane or carbon dioxide have torn holes in the ozone layer, and have contributed to overall air pollution. 
@@ -16,6 +17,7 @@ const Environment = () => {
     </h4>
 
    <h3>Target 1</h3>
+   
 
     <pre>Have the ability to adequately adapt to climate hazards and natural disasters</pre>
     <p className="p1"> Natural Disasters happen in every country on Earth. Whether it be the East Coast of the US with hurricanes,
