@@ -33,32 +33,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: rgb(2, 84, 139);
-  }
-  :root {
-    color: #000000;
-    
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+html {
+  background-color: rgb(2, 84, 139);
 }
-
+:root {
+  color: #000000;
+  
+}
+a:hover {
+  color: #747bff;
+}
+button {
+  background-color: #f9f9f9;
+}

@@ -28,10 +28,8 @@ const Energy = () => {
     </p>
     <h3> Target 2</h3>
     <pre>Substantially increase the share of renewable energy in the global energy mix</pre>
-    <img src={renewable} style={{
-        width: '300px',
-        float: 'right',
-        'border-radius': '20px'
+    <img align="right" src={bulbs} style={{
+        width: 300
     }}/>
     <p className="p1">
     Increasing the usage of renewable energy globally would have both long and short term benefits, including environmental improvement, 

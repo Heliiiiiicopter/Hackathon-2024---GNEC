@@ -6,29 +6,38 @@
   
   
 }
-@media (prefers-color-scheme: dark){
+.genderEquality { 
+    
+  background: url('assets/equal.png') no-repeat;
+  background-size: calc(100% - 130px);
+  background-color: purple;
+  background-position: center;
   
-  .goals div {
-    width: 25vw;
-    height: 25vw;
-    text-align: center;
+  
+  
+}
 
-  }
-  .genderEquality { 
-    background-image: url('assets/equal.png');
-    background-color: rgb(46, 4, 80);
-   
-  }
-
-  .environment {
-    background-color: rgb(2, 75, 38)
-  }
-
-  .energy {
-    background-color: rgb(94, 0, 0)
-  }
+.environment {
+  
+  background: url('assets/climate.png') no-repeat;
+  background-size: calc(100% - 130px);
+  background-position: center;
+  background-color: rgb(16, 162, 16);
+}
+.energy {
+  
+  background: url('assets/energy.png') no-repeat;
+  background-size: calc(100% - 130px);
+  background-position: center;
+  background-color: rgb(217, 154, 27);
+}
+.goals div {
+  width: 25vw;
+  height: 25vw;
+  text-align: center;
 
 }
+
 .goals div:hover {
   border: 1px solid black;
 }
@@ -41,52 +50,6 @@
   
 }
 
-@media (prefers-color-scheme: light) {
-  html {
-    background-color: black;
-    
-  }
-  .goals div {
-    width: 24vw;
-    height: 20vw;
-    text-align: center;
-    color: white;
-  }
-
-  .genderEquality { 
-    
-    background: url('assets/equal.png') no-repeat;
-    background-size: calc(100% - 130px);
-    background-color: purple;
-    background-position: center;
-    
-    
-    
-  }
-  .genderEquality:hover {
-    border: 1px solid green;
-    
-  }
- 
-  
-  .environment {
-    
-    background: url('assets/climate.png') no-repeat;
-    background-size: calc(100% - 130px);
-    background-position: center;
-    background-color: rgb(16, 162, 16);
-  }
-  .energy {
-    
-    background: url('assets/energy.png') no-repeat;
-    background-size: calc(100% - 130px);
-    background-position: center;
-    background-color: rgb(217, 154, 27);
-  }
-  
-  
-  
-}
 .navButtons {
   position: fixed;
   display: flex;
