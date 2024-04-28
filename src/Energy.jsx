@@ -7,9 +7,9 @@ const Energy = () => {
     return <>
     
     <h1><center> Goal 7: Affordable and Clean Energy </center></h1>
-    <img src={clean} style={{
+    <center><img src={clean} style={{
         width: 700
-    }}/>
+    }}/></center>
     <h4>Access to affordable energy is crucial for improving people's lifestyles all around the world. This goal aims to ensure 
         reliable, sustainable, and modern energy for all. According to the UN, close to 2 billion people will still rely on 
         polluting fuels for cooking by the year 2030 if the current turbulent economic state of the world were to continue.
