@@ -27,6 +27,8 @@ function GenderEquality() {
       
       <h3> Target 1 </h3>
       <pre> End all forms of discrimination against all women and girls everywhere</pre>
+      <img align="right" src={glassceiling} width="300" height="200" style={{padding: 20}}  />
+
       <p className="p1"> Laws are in place to promote and maintain equality and discrimination in the country 
       Many countries lack laws and balances to ensure women an equal opportunity and quality of life. 
         According to the UN SDGs website, out of 119 countries, 55% didn't have laws to ban discrimination of women
@@ -36,7 +38,6 @@ function GenderEquality() {
         Including many states in the United States, which has 18 as minimum age, but grants marriage for people as young as 16 with
         parental permission. 
       </p>
-      <img align="right" src={glassceiling} width="300" height="200" style={{padding: 20}}  />
       
 
       <p> Solutions: <br></br><br></br>
@@ -56,7 +57,9 @@ function GenderEquality() {
       or customs. Laws that protect from workplace harrassment and retaliation would further the equality of women.
       </p>
       <img align="right" src={wagegaps} width="300" height="200" style={{padding: 20}}  />
+
       <p>
+        
       <br></br>
       
       <br></br>

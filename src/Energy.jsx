@@ -7,9 +7,9 @@ const Energy = () => {
     return <>
     
     <h1><center> Goal 7: Affordable and Clean Energy </center></h1>
-    <img src={clean} style={{
+    <center><img src={clean} style={{
         width: 700
-    }}/>
+    }}/></center>
     <h4>Access to affordable energy is crucial for improving people's lifestyles all around the world. This goal aims to ensure 
         reliable, sustainable, and modern energy for all. According to the UN, close to 2 billion people will still rely on 
         polluting fuels for cooking by the year 2030 if the current turbulent economic state of the world were to continue.
@@ -48,8 +48,8 @@ const Energy = () => {
     cost of solar system installation, should they choose to have said installations for renewable energy. 
     </p>
     <h3> Target 3</h3>
-    <img src={bulbs} style={{
-        width: 400
+    <img align="right" src={bulbs} style={{
+        width: 300
     }}/>
     <pre>Double the global rate of improvement in energy efficiency by 2030</pre>
     <p className="p1">

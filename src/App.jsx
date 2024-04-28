@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <>
-
+     
       <h1><center> United Nations Sustainable Development Goals</center></h1>
 
       <div className="summary">
