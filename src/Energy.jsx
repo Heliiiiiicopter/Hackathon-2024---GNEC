@@ -1,9 +1,15 @@
 import {useNavigate} from 'react-router-dom'
+import clean from './assets/clean.jpg'
+import renewable from './assets/renewable.jpg'
+import bulbs from './assets/bulbs.jpg'
 const Energy = () => {
     const navigate = useNavigate()
     return <>
     
     <h1><center> Goal 7: Affordable and Clean Energy </center></h1>
+    <img src={clean} style={{
+        width: 700
+    }}/>
     <h4>Access to affordable energy is crucial for improving people's lifestyles all around the world. This goal aims to ensure 
         reliable, sustainable, and modern energy for all. According to the UN, close to 2 billion people will still rely on 
         polluting fuels for cooking by the year 2030 if the current turbulent economic state of the world were to continue.
@@ -22,6 +28,9 @@ const Energy = () => {
     </p>
     <h3> Target 2</h3>
     <pre>Substantially increase the share of renewable energy in the global energy mix</pre>
+    <img src={renewable} style={{
+        width: 300
+    }}/>
     <p className="p1">
     Increasing the usage of renewable energy globally would have both long and short term benefits, including environmental improvement, 
     energy security, and public health benefits. By reducing the usage of fossil fuels by moving to renewable sources of energy, 
@@ -38,6 +47,9 @@ const Energy = () => {
     cost of solar system installation, should they choose to have said installations for renewable energy. 
     </p>
     <h3> Target 3</h3>
+    <img src={bulbs} style={{
+        width: 400
+    }}/>
     <pre>Double the global rate of improvement in energy efficiency by 2030</pre>
     <p className="p1">
         Energy efficiency is the usage of less energy to achieve the same level of service/output. Improved energy efficiency 
