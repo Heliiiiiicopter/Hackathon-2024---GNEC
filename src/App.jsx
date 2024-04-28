@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 import { useNavigate } from 'react-router-dom'
 import './App.css'
+import equal from './assets/equal.png'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -23,10 +24,11 @@ const App = () => {
             And some trying to increase safety and health. 
         
           </div>
-
+    
     <div className="goals">
     <div className="genderEquality" onClick={() => {navigate("/genderequality")}}>
         Gender Equality
+        
       </div>
       <div className="environment" onClick={() => {navigate('/environment')}}>
         Climate Action
