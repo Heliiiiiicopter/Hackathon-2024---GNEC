@@ -35,7 +35,7 @@
 
 .summary {
   background-color: rgb(191, 180, 232);
-3  height: 20vh;
+  height: 20vh;
   margin: 0 10vw;
   padding: auto;
   
@@ -84,9 +84,8 @@
     background-color: rgb(217, 154, 27);
   }
   
-  .summary {
-    background-color: rgb(137, 207, 240);
-  }
+  
+  
 }
 .navButtons {
   position: fixed;
