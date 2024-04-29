@@ -16,6 +16,8 @@ const App = () => {
       <h1><center> United Nations Sustainable Development Goals</center></h1>
 
       <div className="summary">
+        <br></br>
+        <br></br>
             The goal of the United Nations Sustainable Development Goals, or UN SDGs, is to reduce the disparities between countries around the world,
             specfically between developing and developed countries in various regions around the world. There are 193 members of the United Nations, 
             with all of them pledging to achieve all the SDGs by 2030. 

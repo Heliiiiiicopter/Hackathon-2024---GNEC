@@ -1,5 +1,9 @@
 import {useNavigate} from 'react-router-dom'
 
+import tornado from './assets/tornado.jpeg'
+import tornadohiding from './assets/tornadohiding.jpeg'
+import climatechange from './assets/climatechange.jpeg'
+
 const Environment = () => {
     const navigate = useNavigate()
     return <>
@@ -20,11 +24,14 @@ const Environment = () => {
    
 
     <pre>Have the ability to adequately adapt to climate hazards and natural disasters</pre>
+    <img align="right" src={tornado} width="300" height="200" style={{padding: 20}}  />
+
     <p className="p1"> Natural Disasters happen in every country on Earth. Whether it be the East Coast of the US with hurricanes,
      or Earthquakes in China. Many countries are unable to adequately come back from natural disasters. The Indian Ocean Tsunami hit
      countless countries in South and South East Asia, including Indonesia, but also in, India, Malaysia, Singapore, Sri Lanka, and 
      Thailand. It has taken countless years to rebuild from the damage. Cities are demolished, lives are lost, and families are ruined 
      due to unadequate preparation to climate disasters.</p>
+
 
      <p>Solutions: <br></br><br></br>
 
@@ -36,6 +43,8 @@ const Environment = () => {
 
     <h3>Target 2</h3>    
     <pre>Adopt measures to prevent or slow climate change </pre>
+    <img align="right" src={climatechange} width="300" height="200" style={{padding: 20}}  />
+
     <p className="p1">Climate Change is the change in global temperature and weather patterns. The worlds temperature has risen over the 
     past few years. In part of Green House gass emissions, which is the emissions of gases like carbon dioxide and methane. These gases
     mix into the atmosphere and create a green house effect. Trapping heat from the sun on Earth. This streamlines the melting of iceburgs,
@@ -48,6 +57,8 @@ const Environment = () => {
     </p>
 
     <h3>Target 3</h3>
+    <img align="right" src={tornadohiding} width="300" height="200" style={{padding: 20}}  />
+
     <pre>Improve awareness of how to deal with natural disasters and how to prepare for them</pre>
     <p className="p1"> When faced with natural disasters many people are unprepared or unaware. 3000 people During the 1906 San Francisco
      Earthquake, many due to lack of knowledge on how to adequately protect oneself. Knowledge on how to properly protect a persons body during

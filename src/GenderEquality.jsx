@@ -9,6 +9,7 @@ import reprodrights from './assets/reprodrights.jpeg'
 
 
 
+
 function GenderEquality() {
   const navigate = useNavigate()
   const [count, setCount] = useState(0)

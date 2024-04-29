@@ -28,9 +28,8 @@ const Energy = () => {
     </p>
     <h3> Target 2</h3>
     <pre>Substantially increase the share of renewable energy in the global energy mix</pre>
-    <img align="right" src={bulbs} style={{
-        width: 300
-    }}/>
+    <img align="right" src={renewable} width="300" height="200" style={{padding: 20}}  />
+
     <p className="p1">
     Increasing the usage of renewable energy globally would have both long and short term benefits, including environmental improvement, 
     energy security, and public health benefits. By reducing the usage of fossil fuels by moving to renewable sources of energy, 
@@ -47,10 +46,10 @@ const Energy = () => {
     cost of solar system installation, should they choose to have said installations for renewable energy. 
     </p>
     <h3> Target 3</h3>
-    <img src={bulbs} style={{
-        width: 400,
-        "border-radius": "100px"
-    }}/>
+    <img align="right" src={bulbs} width="300" height="200" style={{padding: 20}}  />
+
+        
+ 
     <pre>Double the global rate of improvement in energy efficiency by 2030</pre>
     <p className="p1">
         Energy efficiency is the usage of less energy to achieve the same level of service/output. Improved energy efficiency 
